@@ -27,7 +27,7 @@ header {
 
 .logo {
     font-family: "Edu VIC WA NT Beginner", cursive;
-    font-size: 40.4px;
+    font-size: 30.4px;
 }
 
 .logo_text {
@@ -51,7 +51,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20.2px;
     font-weight: 600;
 }
 
@@ -68,7 +68,9 @@ nav ul li a {
 }
 
 .sign p a:hover {
-    background-color: #333;
+    width: 200px;
+    height: 80px;
+    background-color: #043b5b;
     border-radius: 6px;
     padding: 10px;
 }
@@ -79,29 +81,30 @@ nav ul li a {
 
 .travel {
     padding: 150px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 
   .P_tag {
     width: 260px;
-    height: 60px;
+    height: 52px;
     background-color: rgba(78, 78, 78, 0.555); 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 40px;
+    margin-bottom: 30px;
   }
 
   .centered_text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .Main {
     width: 40%;
-    font-size: 3.4rem;
+    font-size: 2.1rem;
     font-weight: 800;
   }
 
@@ -111,7 +114,7 @@ nav ul li a {
 
   .btn {
     width: 200px;
-    height: 60px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,6 +122,7 @@ nav ul li a {
     border-radius: 40px;
     background-color: #ffffff;
     cursor: pointer;
+    margin-top: 30px;
   }
 
   .button {
@@ -209,228 +213,11 @@ nav ul li a {
 } */
 
 
-/* About Us */
 
-.portfolio-container {
-  display: flex;
-  width: 100%;
-  max-width: 2000px;
-  margin: 50px auto;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 5.4rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.portfolio-container:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-}
-
-.text-section {
-  padding: 40px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #e7e8e9;
-}
-
-.about_text {
-  font-size: 68px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.text-section h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.text-section p {
-  font-size: 19.2px;
-  margin-bottom: 10px;
-  color: #555;
-}
-
-.text-section .details {
-  font-size: 17.5px;
-  color: #888;
-}
-
-.text-section .details span {
-  font-size: 18px;
-  font-weight: 800;
-  color: #6e6c6c;
-}
-
-.image-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  flex: 1.5;
-  padding: 10px;
-}
-
-.image_wrapper {
-  position: relative;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-
-.image-section img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 5px;
-}
-
-.image_wrapper:hover img {
-  transform: scale(1.05);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
-
-.image-section img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
-
-.image_text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.image_wrapper:hover .image_text {
-  opacity: 1;
-}
-
-/* Our Services */
-
-
-.OurServices {
-  background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-    margin-top: 16.4rem;
-}
-
-.popular-destinations {
-  width: 100%;
-  max-width: 2500px;
-  text-align: center;
-  margin-top: 18rem;
-  margin: auto;
-  min-height: 100vh;
-}
-
-.services_title h1 {
-  font-size: 3.4rem;
-  font-weight: 600;
-}
-
-.popular-destinations h2 {
-  font-size: 30px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.popular-destinations p {
-  font-size: 18px;
-  color: #777;
-  margin-bottom: 40px;
-}
-
-.destinations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 30px;
-  padding: 0 10px;
-}
-
-.destination-card {
-  width: 100%;
-  max-width: 2800px;
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.destination-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.destination-card img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 20px;
-}
-
-.card-content h2 {
-  font-size: 26px;
-  color: #333;
-  margin: 0;
-}
-
-.card-content p {
-  font-size: 18px;
-  color: #777;
-  margin: 10px 0;
-}
-
-.rating {
-  font-size: 20px;
-  color: #28a745;
-  margin-bottom: 15px;
-}
-
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 25px;
-  padding: 12px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #0056b3;
-} 
-
-
-/* Counter_Feature */
-
-
-.counter_feature {
+ /* Counter_Feature */
+  
+  
+ .counter_feature {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,7 +239,7 @@ button:hover {
   padding: 20px 40px;
   border-radius: 20px;
   width: 90%;
-  max-width: 2500px;
+  max-width: 2800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -479,166 +266,151 @@ button:hover {
   margin-top: 5px;
 }
 
-
-/* Features_Section */
-
-.features_section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-  margin-top: 16.4rem;
+/* Home Section */
+  
+.home {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #fff;
 }
 
-.features_image-container {
-  position: relative;
-  flex: 1;
+.home_container {
+  text-align: center;
 }
 
-.features_image-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-  opacity: 0;
-  animation: fadeIn 1s forwards;
+.hone_container {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
 }
 
-.highlight-box {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: #f7b500;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  animation: slideInLeft 1s forwards 0.5s;
-}
+.hone_container h2 {
+  font-size: 32px;
+  font-weight: 800;
+} 
 
-.highlight-box ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #000;
-}
 
-.highlight-box ul li {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.highlight-box ul li::before {
-  content: "\2714";
-  color: #000;
-  margin-right: 10px;
-}
-
-.features_text-container {
-  flex: 1;
-  padding-left: 40px;
-}
-
-.features_text-container h2 {
-  color: #333;
-  font-size: 38px;
-  margin-bottom: 10px;
-  opacity: 0;
-  animation: slideInRight 1s forwards;
-}
-
-.features_text-container h1 {
-  font-size: 46px;
-  margin-bottom: 20px;
-  color: #666;
-  opacity: 0;
-  animation: slideInRight 1s forwards;
-}
-
-.features_text-container .features_subtitle {
-  font-size: 25px;
-  color: #f7b500;
-  font-style: italic;
-  margin-bottom: 20px;
-  opacity: 0;
-    animation: fadeIn 1s forwards 1s;
-}
-
-.features_text-container p {
-  color: #555;
+.hone_container h4 {
   font-size: 20px;
-  margin-bottom: 20px;
-  line-height: 1.6;
+  font: 400;
+}
+
+.homes {
+  padding: 50px 0;
+  /* background-color: #f0f0f0; */
+}
+
+.home_services {
+  padding: 50px 0;
+  background-color: #e0f7fa;
+}
+
+.home_service_image img{
+  width: 850px;
+  height: 50vh;
+}
+
+.home_service_image h3 {
+  font-size: 1.4rem;
+}
+
+
+.home_service h3 {
+  font-size: 1.4rem;
+}
+
+.home_service_image p {
+  font-size: 1.1rem;
+}
+
+.home_service p {
+  font-size: 1.1rem;
+}
+
+.news {
+  padding: 50px 0;
+  background-color: #fafafa;
+}
+
+.home_service, .home_service_image, .news-item {
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+
+p {
+  color: #555;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.fade_in {
+  font-size: 1.42rem;
   opacity: 0;
-    animation: fadeIn 1s forwards 1s;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.features_read-more-container {
-  display: flex;
-  align-items: center;
+.slide_up {
+  /* width: 40%; */
+  font-size: 2.2rem;
   opacity: 0;
-    animation: fadeIn 1s forwards 1s;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.read-more {
-  background-color: #f7b500;
-  color: #fff;
-  text-decoration: none;
-  padding: 15px 25px;
-  border-radius: 58px;
-  margin-right: 20px;
-  font-size: 18px;
-  font-weight: bold;
+.fade_in_left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.play-button {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 53.2px;
-  height: 52.1px;
-  font-size: 18.4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.fade_in_right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.play-button:hover {
-  background-color: #f7b500;
+.scroll_active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
+.fade_in.scroll_active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
-@keyframes slideInLeft {
-  from {
-      transform: translateX(-100%);
-      opacity: 0;
-  }
-  to {
-      transform: translateX(0);
-      opacity: 1;
-  }
+.fade_in-left.scroll_active {
+  transform: translateX(0);
+  opacity: 1;
 }
 
-@keyframes slideInRight {
-  from {
-      transform: translateX(100%);
-      opacity: 0;
-  }
-  to {
-      transform: translateX(0);
-      opacity: 1;
-  }
+.fade_in_right.scroll_active {
+  transform: translateX(0);
+  opacity: 1;
 }
 
-/* Footer */
+.slide_up.scroll_active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/* Home Section Ends */
+
+
 /* 
 body {
   margin: 0;
@@ -696,7 +468,7 @@ body {
 }
 
 .subscribe-button {
-  padding: 33.6px 30px;
+  padding: 32.5px 39px;
   border: none;
   background-color: #00aaff;
   color: #fff;
@@ -710,16 +482,20 @@ body {
 }
 
 .footer {
-  background-color: rgba(134, 125, 125, 0.7);
+  background-color: rgba(131, 124, 124, 0.7);
   padding: 40px 0;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
 }
 
 .logo-section {
@@ -728,6 +504,11 @@ body {
 
 .logo-section h3 {
   margin: 0 0 10px 0;
+  font-size: 2rem;
+}
+
+.logo-section p {
+  font-size: 18px;
 }
 
 .social-icons a {
@@ -750,7 +531,8 @@ body {
 }
 
 .column h4 {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 0px 0; */
+  margin-right: 4rem;
   font-size: 20px;
 }
 
@@ -816,6 +598,9 @@ body {
 }
 
 
+
+/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
   .stats-container {
       flex-direction: column;
@@ -831,40 +616,62 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-    .destinations-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
 
-    .destination-card img {
-        height: 200px;
-    }
+
+@media screen and (max-width: 1200px) {
+  .container {
+      width: 90%;
+  }
 }
 
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
+@media screen and (max-width: 992px) {
+  .service, .news-item {
+      width: 45%; /* Adjust to 2 columns */
+  }
+}
 
-    .popular-destinations h1 {
-        font-size: 28px;
-    }
+@media screen and (max-width: 768px) {
+  .service, .news-item {
+      width: 100%; /* Full-width for single column */
+      margin: 20px 0; /* Adjust margin for single column */
+  }
 
-    .popular-destinations p {
-        font-size: 16px;
-    }
+  h1 {
+      font-size: 1.8rem;
+  }
 
-    .card-content h2 {
-        font-size: 22px;
-    }
+  h2 {
+      font-size: 1.5rem;
+  }
 
-    .card-content p, .rating {
-        font-size: 16px;
-    }
+  p {
+      font-size: 1rem;
+  }
+}
 
-    button {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
+@media screen and (max-width: 480px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+  }
+
+  p {
+      font-size: 0.9rem;
+  }
+
+  .hero {
+      padding: 30px 0;
+  }
+
+  .services, .news {
+      padding: 30px 0;
+  }
+
+  .container {
+      width: 95%;
+  }
 }
 
