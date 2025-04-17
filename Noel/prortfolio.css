@@ -73,7 +73,7 @@ footer {
 
 
 /* General Styles */
-body {
+/* body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -206,7 +206,7 @@ nav {
     animation: slideIn 2s ease-in-out;
 }
 
-/* Animations */
+Animations
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -225,7 +225,7 @@ nav {
     }
 }
 
-/* Responsive Design */
+Responsive Design
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -245,4 +245,5 @@ nav {
         margin-bottom: 15px;
         margin-right: 0;
     }
-}
+} */
+
